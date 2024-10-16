@@ -6,6 +6,13 @@ function Header(){
   return <h1>Hello, world!</h1>;
 }
 
+function Heading() {
+  return (
+    <h2>This is an h1 heading</h2>
+  );
+}
+
+
 function App() {
     return <Header />
 
