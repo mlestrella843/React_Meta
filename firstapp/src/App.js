@@ -1,20 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
-
-function Header(){
-  return <h1>Hello, world!</h1>;
-}
-
-function Heading() {
-  return (
-    <h2>This is an h1 heading</h2>
-  );
-}
+import Heading from "./components/Heading";
 
 
 function App() {
-    return <Header />
+    return <Heading />
 
 }
 
