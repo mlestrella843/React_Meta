@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import Heading from "./components/Heading";
+import ParentComponent from "./components/exercise1/ParentComponent";
 
 
 function App() {
-    return <Heading />
+    return <ParentComponent />
 
 }
 
