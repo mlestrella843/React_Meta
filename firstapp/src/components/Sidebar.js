@@ -4,8 +4,10 @@ function Sidebar(props){
     console.log(props);
 
     return (
-        <h3>{props.greet}, Welcome to Sidebar</h3>
-    )
+        <aside className="bg-secondary text-white p-3">
+            <h3>{props.greet}, here’s the sidebar!</h3>
+        </aside>
+    );
 
 }
 export default Sidebar;

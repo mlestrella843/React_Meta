@@ -1,8 +1,8 @@
 function Footer() {
     return (
-        <div className="copyright">
-            <p>Made with love by Myself</p>
-        </div>
+        <footer className="bg-dark text-white text-center py-3">
+            <p>&copy; 2024 My Website</p>
+        </footer>
     );
 };
 
