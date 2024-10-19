@@ -5,25 +5,36 @@
 This allows the styles defined in the `App.css` file to be applied to the components rendered in the
 `App` component. */
 // import './App.css';
-import Nav from "./components/Nav";
-import Header from './components/Header';
-import Main from './components/Main';
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
+// import Nav from "./components/Nav";
+// import Header from './components/Header';
+// import Main from './components/Main';
+// import Sidebar from "./components/Sidebar";
+// import Footer from "./components/Footer";
+import Heading from "./components/Lab1/Heading";
 
 
 function App() {
     // return <ParentComponent />
-    return (
-        <div >
-             <Nav />
-             <Header name="Maria" color="Purple" />
-             <div className="container">
-                <Main greet="Howdy" />
-             </div>
-             <Sidebar greet="Hi" />
-             <Footer />
+    // Second exercise
+    // return (
+    //     <div >
+    //          <Nav />
+    //          <Header name="Maria" color="Purple" />
+    //          <div className="container">
+    //             <Main greet="Howdy" />
+    //          </div>
+    //          <Sidebar greet="Hi" />
+    //          <Footer />
+    //     </div>
+    // ) 
+
+    //Lab exercise
+    return(
+        <div className="container">
+            <h4>Lab Exercise</h4>
+            <Heading firstName="Bob"/>
+            <Heading firstName="Maria Luisa" />
         </div>
-    ) 
+    )
 }
 export default App;
