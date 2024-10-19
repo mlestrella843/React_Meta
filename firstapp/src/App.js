@@ -15,10 +15,12 @@ import Footer from "./components/Footer";
 function App() {
     // return <ParentComponent />
     return (
-        <div>
+        <div >
              <Nav />
              <Header name="Maria" color="Purple" />
-             <Main greet="Howdy" />
+             <div className="container">
+                <Main greet="Howdy" />
+             </div>
              <Sidebar greet="Hi" />
              <Footer />
         </div>
