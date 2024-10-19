@@ -2,17 +2,20 @@ import React, { useState } from 'react';
 import ChildComponent from './ChildComponent';
 
 function ParentComponent() {
-  // The 'user' state is defined into Parent component.
+  // Parent component state to store user information
   const [user, setUser] = useState({ name: '', age: 0 });
 
   return (
     <div>
-      {/* The function onSubmit is passed as prop to ChildComponent */}
-      <ChildComponent onSubmit={(newUser) => setUser(newUser)} />
+      <h1>Parent Component</h1>
       
-      {/* Then the values name and age is showed into the ParentComponent */}
+      {/* Passing a function to ChildComponent via onSubmit prop */}
+      <ChildComponent onSubmit={(newUser) => setUser(newUser)} />
+
+      {/* Displaying the current user information */}
       <p>Current User: {user.name}, Age: {user.age}</p>
     </div>
   );
 }
+
 export default ParentComponent;
