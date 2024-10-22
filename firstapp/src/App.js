@@ -11,9 +11,12 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Sidebar from "./components/Sidebar";
 // import Footer from "./components/Footer";
 // import Heading from "./components/Lab1/Heading";
-import Apple from "./components/props_children_exercise/Apple";
-import Pears from "./components/props_children_exercise/Pears";
-import Bag from "./components/props_children_exercise/Bag";
+// import Apple from "./components/props_children_exercise/Apple";
+// import Pears from "./components/props_children_exercise/Pears";
+// import Bag from "./components/props_children_exercise/Bag";
+
+import Promo from "./components/styling_components/Promo";
+
 
 function App() {
     // return <ParentComponent />
@@ -39,15 +42,25 @@ function App() {
     //     </div>
     // )
 
-    //Lab of Props.children
+    // //Lab of Props.children
+    // return (
+    //     <div>
+    //         <Bag>
+    //             <Apple color="red" number={5} />
+    //             <Pears friend="John" />
+    //         </Bag>
+    //     </div>
+    // );
+
+   
+    // FUNCTION USING STYLES
+
     return (
         <div>
-            <Bag>
-                <Apple color="red" number={5} />
-                <Pears friend="John" />
-            </Bag>
+            <Promo heading="Special Offer!" promoSubHeading="50% off all items!" />
         </div>
     );
+
 
 }
 export default App;

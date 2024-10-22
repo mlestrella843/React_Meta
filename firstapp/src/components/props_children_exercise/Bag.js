@@ -3,6 +3,7 @@ import React from "react";
 function Bag(props) {
     const bag = {
         padding: "20px",
+        color:"Red",
         border: "1px solid gray",
         background: "#fff",
         margin: "20px 0"
