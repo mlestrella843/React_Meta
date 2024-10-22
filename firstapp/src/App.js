@@ -10,8 +10,10 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Main from './components/Main';
 // import Sidebar from "./components/Sidebar";
 // import Footer from "./components/Footer";
-import Heading from "./components/Lab1/Heading";
-
+// import Heading from "./components/Lab1/Heading";
+import Apple from "./components/props_children_exercise/Apple";
+import Pears from "./components/props_children_exercise/Pears";
+import Bag from "./components/props_children_exercise/Bag";
 
 function App() {
     // return <ParentComponent />
@@ -29,12 +31,23 @@ function App() {
     // ) 
 
     //Lab exercise
-    return(
-        <div className="container">
-            <h4>Lab Exercise</h4>
-            <Heading firstName="Bob"/>
-            <Heading firstName="Maria Luisa" />
+    // return(
+    //     <div className="container">
+    //         <h4>Lab Exercise</h4>
+    //         <Heading firstName="Bob"/>
+    //         <Heading firstName="Maria Luisa" />
+    //     </div>
+    // )
+
+    //Lab of Props.children
+    return (
+        <div>
+            <Bag>
+                <Apple color="red" number={5} />
+                <Pears friend="John" />
+            </Bag>
         </div>
-    )
+    );
+
 }
 export default App;
