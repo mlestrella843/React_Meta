@@ -16,6 +16,8 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Bag from "./components/props_children_exercise/Bag";
 
 import Promo from "./components/styling_components/Promo";
+import Sidebar from "./components/styling_components/Sidebar";
+import './components/styling_components/style.css';
 
 
 function App() {
@@ -56,8 +58,14 @@ function App() {
     // FUNCTION USING STYLES
 
     return (
-        <div>
-            <Promo heading="Special Offer!" promoSubHeading="50% off all items!" />
+        
+        <div className="container">
+            <div className="content">
+                <Promo heading="Special Offer!" promoSubHeading="50% off all items!" />
+                <h1>Main Content</h1>
+        //      <p>This is the main content of the page.</p>
+            </div>
+            <Sidebar />
         </div>
     );
 

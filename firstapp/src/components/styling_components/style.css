@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 70%;
+}
+
+.sidebar {
+    background: azure;
+    width: calc(30% - 10px);
+    margin-left: 10px;
+}
