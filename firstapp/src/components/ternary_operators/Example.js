@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Example2() {
+function Example() {
     return (
         <div className="heading">
             <h3>Here's a random number from 0 to 10: 
@@ -10,4 +10,4 @@ function Example2() {
     );
 };
 
-export default Example2;
+export default Example;

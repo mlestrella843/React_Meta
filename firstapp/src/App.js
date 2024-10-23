@@ -19,7 +19,8 @@ import Promo from "./components/styling_components/Promo";
 import Sidebar from "./components/styling_components/Sidebar";
 import './components/styling_components/style.css';
 
-import Example2 from "./components/ternary_operators/Example";
+import Example from "./components/ternary_operators/Example";
+import Example1 from "./components/ternary_operators/Example1";
 
 
 function App() {
@@ -57,7 +58,7 @@ function App() {
     // );
 
    
-    // FUNCTION USING STYLES
+    // FUNCTION USING STYLES adn Ternary Operators
 
     return (
         
@@ -66,7 +67,8 @@ function App() {
                 <Promo heading="Special Offer!" promoSubHeading="50% off all items!" />
                 <h1>Main Content</h1>
         //      <p>This is the main content of the page.</p>
-                <Example2 />
+                <Example />
+                <Example1 />
             </div>
             <Sidebar />
             
