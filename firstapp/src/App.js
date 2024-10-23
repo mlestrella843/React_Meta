@@ -15,14 +15,18 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Pears from "./components/props_children_exercise/Pears";
 // import Bag from "./components/props_children_exercise/Bag";
 
-import Promo from "./components/styling_components/Promo";
-import Sidebar from "./components/styling_components/Sidebar";
-import './components/styling_components/style.css';
+// import Promo from "./components/styling_components/Promo";
+// import Sidebar from "./components/styling_components/Sidebar";
+// import './components/styling_components/style.css';
 
 // import Example from "./components/ternary_operators/Example";
 // import Example1 from "./components/ternary_operators/Example1";
 
-import DisplaySum from "./components/expressions_as_props/expression1";
+// import { DisplaySum } from "./components/expressions_as_props/Expression1";
+// import Logo from "./components/embedding_attributes/embedding";
+
+import Card from "./components/expressions_as_props/Card";
+import './components/expressions_as_props/app.css'
 
 
 function App() {
@@ -40,7 +44,7 @@ function App() {
     //     </div>
     // ) 
 
-    //Lab exercise
+    //**Lab exercise
     // return(
     //     <div className="container">
     //         <h4>Lab Exercise</h4>
@@ -49,7 +53,7 @@ function App() {
     //     </div>
     // )
 
-    // //Lab of Props.children
+    //* //Lab of Props.children
     // return (
     //     <div>
     //         <Bag>
@@ -60,7 +64,7 @@ function App() {
     // );
 
    
-    // FUNCTION USING STYLES adn Ternary Operators
+    //* FUNCTION USING STYLES adn Ternary Operators
 
     // return (
         
@@ -78,16 +82,34 @@ function App() {
 
     // );
 
-    // Expressions as Props
-    const num1 = 5; // first number
-    const num2 = 10; // second number
+    //* // Expressions as Props
+    // const num1 = 5; // first number
+    // const num2 = 10; // second number
 
+    // return (
+    //     <div className="App">
+    //         {/* using the component DisplaySum and passed the props */}
+    //         <DisplaySum a={num1} b={num2} />
+    //     </div>
+    // );
+
+    //*Embedding attributes and assets
+    // return (
+    //         <div className="App">
+    //             <h1>Hello World</h1>
+    //             <Logo />
+    //         </div>
+    //     );
+
+    //* Lab
     return (
-        <div className="App">
-            {/* using the component DisplaySum and passed the props */}
-            <DisplaySum a={num1} b={num2} />
-        </div>
-    );
+        <div className="app">
+         <h1>Task: Add three Card elements</h1>
+         <Card h2="First card's h2" h3="First card's h3" />
+         <Card h2="Second card's h2" h3="Second card's h3" />
+         <Card h2="Third card's h2" h3="Third card's h3" />
+       </div>
+     );
 
 
 }

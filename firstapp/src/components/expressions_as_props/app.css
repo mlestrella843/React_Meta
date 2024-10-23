@@ -1,0 +1,34 @@
+Copy code
+.App {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px; /* Limitar el ancho máximo de las tarjetas */
+    transition: transform 0.3s; /* Transición suave para el efecto hover */
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0;
+}
+
+/* Efecto hover para las tarjetas */
+.card:hover {
+    transform: translateY(-5px); /* Mover la tarjeta hacia arriba al pasar el mouse */
+}
