@@ -19,6 +19,8 @@ import Promo from "./components/styling_components/Promo";
 import Sidebar from "./components/styling_components/Sidebar";
 import './components/styling_components/style.css';
 
+import Example2 from "./components/ternary_operators/Example";
+
 
 function App() {
     // return <ParentComponent />
@@ -64,9 +66,12 @@ function App() {
                 <Promo heading="Special Offer!" promoSubHeading="50% off all items!" />
                 <h1>Main Content</h1>
         //      <p>This is the main content of the page.</p>
+                <Example2 />
             </div>
             <Sidebar />
+            
         </div>
+
     );
 
 
