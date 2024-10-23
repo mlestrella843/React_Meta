@@ -19,8 +19,10 @@ import Promo from "./components/styling_components/Promo";
 import Sidebar from "./components/styling_components/Sidebar";
 import './components/styling_components/style.css';
 
-import Example from "./components/ternary_operators/Example";
-import Example1 from "./components/ternary_operators/Example1";
+// import Example from "./components/ternary_operators/Example";
+// import Example1 from "./components/ternary_operators/Example1";
+
+import DisplaySum from "./components/expressions_as_props/expression1";
 
 
 function App() {
@@ -60,20 +62,31 @@ function App() {
    
     // FUNCTION USING STYLES adn Ternary Operators
 
-    return (
+    // return (
         
-        <div className="container">
-            <div className="content">
-                <Promo heading="Special Offer!" promoSubHeading="50% off all items!" />
-                <h1>Main Content</h1>
-        //      <p>This is the main content of the page.</p>
-                <Example />
-                <Example1 />
-            </div>
-            <Sidebar />
+    //     <div className="container">
+    //         <div className="content">
+    //             <Promo heading="Special Offer!" promoSubHeading="50% off all items!" />
+    //             <h1>Main Content</h1>
+    //     //      <p>This is the main content of the page.</p>
+    //             <Example />
+    //             <Example1 />
+    //         </div>
+    //         <Sidebar />
             
-        </div>
+    //     </div>
 
+    // );
+
+    // Expressions as Props
+    const num1 = 5; // first number
+    const num2 = 10; // second number
+
+    return (
+        <div className="App">
+            {/* using the component DisplaySum and passed the props */}
+            <DisplaySum a={num1} b={num2} />
+        </div>
     );
 
 
