@@ -25,8 +25,10 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import { DisplaySum } from "./components/expressions_as_props/Expression1";
 // import Logo from "./components/embedding_attributes/embedding";
 
-import Card from "./components/expressions_as_props/Card";
-import './components/expressions_as_props/app.css'
+// import Card from "./components/expressions_as_props/Card";
+// import './components/expressions_as_props/app.css'
+
+import Btn from "./components/btn_event_handling_errors/Btn";
 
 
 function App() {
@@ -102,15 +104,20 @@ function App() {
     //     );
 
     //* Lab
-    return (
-        <div className="app">
-         <h1>Task: Add three Card elements</h1>
-         <Card h2="First card's h2" h3="First card's h3" />
-         <Card h2="Second card's h2" h3="Second card's h3" />
-         <Card h2="Third card's h2" h3="Third card's h3" />
-       </div>
-     );
+    // return (
+    //     <div className="app">
+    //      <h1>Task: Add three Card elements</h1>
+    //      <Card h2="First card's h2" h3="First card's h3" />
+    //      <Card h2="Second card's h2" h3="Second card's h3" />
+    //      <Card h2="Third card's h2" h3="Third card's h3" />
+    //    </div>
+    //  );
 
-
+     //* Handling errors from events
+      return (
+        <div>
+          <Btn />
+        </div>
+      );
 }
 export default App;
