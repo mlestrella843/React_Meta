@@ -15,7 +15,7 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Pears from "./components/props_children_exercise/Pears";
 // import Bag from "./components/props_children_exercise/Bag";
 
-import Errors from "./components/handling_errors/errors";
+import Errors from "./components/handling_errors/Errors";
 
 // import Promo from "./components/styling_components/Promo";
 // import Sidebar from "./components/styling_components/Sidebar";
@@ -128,7 +128,7 @@ function App() {
 
  return (
    <div>
-     <Errors />
+    <Errors />
    </div>
  );
 

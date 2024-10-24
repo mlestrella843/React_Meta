@@ -5,6 +5,7 @@ function Errors() {
         throw new Error('Something is wrong!');
       } catch (error) {
         alert(error.message); 
+        console.log("this is a error in console");
       }
     };
   
