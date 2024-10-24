@@ -15,10 +15,10 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Pears from "./components/props_children_exercise/Pears";
 // import Bag from "./components/props_children_exercise/Bag";
 
-import Errors from "./components/handling_errors/Errors";
+// import Errors from "./components/handling_errors/Errors";
 
-import ModeToggler from "./components/mode_event_handler/ModeToggler";
-import './components/mode_event_handler/mode.css';
+// import ModeToggler from "./components/mode_event_handler/ModeToggler";
+// import './components/mode_event_handler/mode.css';
 
 
 // import Promo from "./components/styling_components/Promo";
@@ -36,7 +36,7 @@ import './components/mode_event_handler/mode.css';
 
 // import Btn from "./components/btn_event_handling/Btn";
 
-
+import Promo from "./components/data_flow/Promo";
 
 
 function App() {
@@ -138,11 +138,21 @@ function App() {
 
 //* Event handler of Mode Dark or Light
 
+// return(
+//   <div>
+//     <ModeToggler />
+//   </div>
+// )
+
+//* Data Flow, Parent-child to keep updated all components simultaneously
+
 return(
   <div>
-    <ModeToggler />
+    <Promo />
   </div>
 )
+
+
 
 }
 export default App;
