@@ -15,6 +15,8 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Pears from "./components/props_children_exercise/Pears";
 // import Bag from "./components/props_children_exercise/Bag";
 
+import Errors from "./components/handling_errors/errors";
+
 // import Promo from "./components/styling_components/Promo";
 // import Sidebar from "./components/styling_components/Sidebar";
 // import './components/styling_components/style.css';
@@ -28,7 +30,9 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 // import Card from "./components/expressions_as_props/Card";
 // import './components/expressions_as_props/app.css'
 
-import Btn from "./components/btn_event_handling_errors/Btn";
+// import Btn from "./components/btn_event_handling/Btn";
+
+
 
 
 function App() {
@@ -113,11 +117,20 @@ function App() {
     //    </div>
     //  );
 
-     //* Handling errors from events
-      return (
-        <div>
-          <Btn />
-        </div>
-      );
+    //  //* Handling events
+    //   return (
+    //     <div>
+    //       <Btn />
+    //     </div>
+    //   );
+
+ //  //* Handling Errors
+
+ return (
+   <div>
+     <Errors />
+   </div>
+ );
+
 }
 export default App;
