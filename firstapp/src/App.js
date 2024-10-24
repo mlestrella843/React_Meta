@@ -17,6 +17,10 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 
 import Errors from "./components/handling_errors/Errors";
 
+import ModeToggler from "./components/mode_event_handler/ModeToggler";
+import './components/mode_event_handler/mode.css';
+
+
 // import Promo from "./components/styling_components/Promo";
 // import Sidebar from "./components/styling_components/Sidebar";
 // import './components/styling_components/style.css';
@@ -126,11 +130,19 @@ function App() {
 
  //  //* Handling Errors
 
- return (
-   <div>
-    <Errors />
-   </div>
- );
+//  return (
+//    <div>
+//     <Errors />
+//    </div>
+//  );
+
+//* Event handler of Mode Dark or Light
+
+return(
+  <div>
+    <ModeToggler />
+  </div>
+)
 
 }
 export default App;
