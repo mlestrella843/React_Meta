@@ -36,7 +36,9 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 
 // import Btn from "./components/btn_event_handling/Btn";
 
-import Promo from "./components/data_flow/Promo";
+// import Promo from "./components/data_flow/Promo";
+
+import UseStateHook from "./components/working_hooks/UseStateHook";
 
 
 function App() {
@@ -146,9 +148,17 @@ function App() {
 
 //* Data Flow, Parent-child to keep updated all components simultaneously
 
-return(
+// return(
+//   <div>
+//     <Promo />
+//   </div>
+// )
+
+//* Hooks
+
+return (
   <div>
-    <Promo />
+    <UseStateHook />
   </div>
 )
 
