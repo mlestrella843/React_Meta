@@ -38,9 +38,11 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 
 // import Promo from "./components/data_flow/Promo";
 
-import { Timer } from "./components/working_hooks/UseEffectHook";
+// import { Timer } from "./components/working_hooks/UseEffectHook";
 
 // import UseStateHook from "./components/working_hooks/UseStateHook";
+
+import {InputComponent} from './components/working_hooks/UserType'
 
 
 function App() {
@@ -158,19 +160,23 @@ function App() {
 
 //* Hooks useState
 
+    return (
+    <div>
+        {/* <UseStateHook /> */}
+        <InputComponent />
+    </div>
+    )
+
+
+
+//* Hooks useEffect
 // return (
 //   <div>
-//     <UseStateHook />
+//     <Timer />
 //   </div>
 // )
 
-//* Hooks useEffect
-return (
-  <div>
-    <Timer />
-  </div>
-)
-
+//* Hooks useContext
 
 
 }
