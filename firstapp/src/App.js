@@ -42,7 +42,9 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 
 // import UseStateHook from "./components/working_hooks/UseStateHook";
 
-import {InputComponent} from './components/working_hooks/UserType'
+// import {InputComponent} from './components/working_hooks/UserType'
+
+import {RegisterForm} from './components/working_hooks/UserForm'
 
 
 function App() {
@@ -163,7 +165,8 @@ function App() {
     return (
     <div>
         {/* <UseStateHook /> */}
-        <InputComponent />
+        {/* <InputComponent /> */}
+        <RegisterForm />
     </div>
     )
 
