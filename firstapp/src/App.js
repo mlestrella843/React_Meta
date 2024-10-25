@@ -5,6 +5,7 @@
 This allows the styles defined in the `App.css` file to be applied to the components rendered in the
 `App` component. */
 // import './App.css';
+
 // import Nav from "./components/Nav";
 // import Header from './components/Header';
 // import Main from './components/Main';
@@ -44,8 +45,10 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 
 // import {InputComponent} from './components/working_hooks/UserType'
 
-import {RegisterForm} from './components/working_hooks/UserForm'
+// import {RegisterForm} from './components/working_hooks/UserForm'
 
+// import {TextInputWithFocusButton} from './components/working_hooks/UseRef_hook'
+import {TimerComponent} from './components/working_hooks/UseRef2Hook'
 
 function App() {
     // return <ParentComponent />
@@ -162,15 +165,14 @@ function App() {
 
 //* Hooks useState
 
-    return (
-    <div>
-        {/* <UseStateHook /> */}
-        {/* <InputComponent /> */}
-        <RegisterForm />
-    </div>
-    )
+    // return (
+    // <div>
+    //     {/* <UseStateHook /> */}
+    //     {/* <InputComponent /> */}
+    //     {/* <RegisterForm /> */}
 
-
+    // </div>
+    // )
 
 //* Hooks useEffect
 // return (
@@ -182,5 +184,15 @@ function App() {
 //* Hooks useContext
 
 
+
+
+//* useRef
+return (
+    <div>
+      <h1>Focus Input Example</h1>
+      {/* <TextInputWithFocusButton /> */}
+      <TimerComponent />
+    </div>
+  );
 }
 export default App;
