@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 
 function ChildComponent() {
+  
     const [text, setText] = useState('');
   
     return (

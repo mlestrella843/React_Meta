@@ -6,15 +6,15 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 `App` component. */
 // import './App.css';
 
-// import Nav from "./components/Nav";
-// import Header from './components/Header';
-// import Main from './components/Main';
-// import Sidebar from "./components/Sidebar";
-// import Footer from "./components/Footer";
-// import Heading from "./components/Lab1/Heading";
-// import Apple from "./components/props_children_exercise/Apple";
-// import Pears from "./components/props_children_exercise/Pears";
-// import Bag from "./components/props_children_exercise/Bag";
+import Nav from "./components/Nav";
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
+import Heading from "./components/Lab1/Heading";
+import Apple from "./components/props_children_exercise/Apple";
+import Pears from "./components/props_children_exercise/Pears";
+import Bag from "./components/props_children_exercise/Bag";
 
 // import Errors from "./components/handling_errors/Errors";
 
@@ -187,12 +187,29 @@ function App() {
 
 
 //* useRef
+// return (
+//     <div>
+//       <h1>Focus Input Example</h1>
+//       {/* <TextInputWithFocusButton /> */}
+//       <TimerComponent />
+//     </div>
+//   );
+// }
+// export default App;
+
+//* React Router
+
 return (
-    <div>
-      <h1>Focus Input Example</h1>
-      {/* <TextInputWithFocusButton /> */}
-      <TimerComponent />
-    </div>
-  );
+  <div>
+    <h1>Focus Input Example</h1>
+    {/* <TextInputWithFocusButton /> */}
+      <Nav /> 
+      <Sidebar />
+      <Main />
+      <Footer />
+  </div>
+);
+
+
 }
 export default App;
