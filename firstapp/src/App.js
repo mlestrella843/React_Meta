@@ -204,8 +204,9 @@ return (
     <h1>Focus Input Example</h1>
     {/* <TextInputWithFocusButton /> */}
       <Nav /> 
-      <Sidebar />
-      <Main />
+      <Header name="Maria" color="Pink"/>
+      <Sidebar greet="Hi Bro!"/>
+      <Main greet="Hi Kate,"/>
       <Footer />
   </div>
 );
