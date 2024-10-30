@@ -201,7 +201,6 @@ function App() {
 
 return (
   <div>
-    <h1>Focus Input Example</h1>
     {/* <TextInputWithFocusButton /> */}
       <Nav /> 
       <Header name="Maria" color="Pink"/>
