@@ -6,15 +6,15 @@ This allows the styles defined in the `App.css` file to be applied to the compon
 `App` component. */
 // import './App.css';
 
-import Nav from "./components/Nav";
-import Header from './components/Header';
-import Main from './components/Main';
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
+import Nav from "./components/simple_app/Nav";
+import Header from './components/simple_app/Header';
+import Main from './components/simple_app/Main';
+import Sidebar from "./components/simple_app/Sidebar";
+import Footer from "./components/simple_app/Footer";
 import Heading from "./components/Lab1/Heading";
-import Apple from "./components/props_children_exercise/Apple";
-import Pears from "./components/props_children_exercise/Pears";
-import Bag from "./components/props_children_exercise/Bag";
+// import Apple from "./components/props_children_exercise/Apple";
+// import Pears from "./components/props_children_exercise/Pears";
+// import Bag from "./components/props_children_exercise/Bag";
 
 // import Errors from "./components/handling_errors/Errors";
 
