@@ -199,17 +199,28 @@ function App() {
 
 //* React Router
 
-return (
-  <div>
-    {/* <TextInputWithFocusButton /> */}
-      <Nav /> 
-      <Header name="Maria" color="Pink"/>
-      <Sidebar greet="Hi Bro!"/>
-      <Main greet="Hi Kate,"/>
-      <Footer />
-  </div>
-);
+// return (
+//   <div>
+//     {/* <TextInputWithFocusButton /> */}
+//       <Nav /> 
+//       <Header name="Maria" color="Pink"/>
+//       <Sidebar greet="Hi Bro!"/>
+//       <Main greet="Hi Kate,"/>
+//       <Footer />
+//   </div>
+// );
+
+
+
+
+
+
+
+
 
 
 }
 export default App;
+
+
+
